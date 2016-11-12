@@ -168,9 +168,11 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\GirlTech16FallController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\NMCPD16Controller.cs" />
+    <Compile Include="Controllers\TechDay16Controller.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -185,6 +187,13 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min - Copy.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\TechExplorationDay\CodeOrgCounterHack.JPG" />
+    <Content Include="Content\TechExplorationDay\CodeOrgDigitalPostcard.JPG" />
+    <Content Include="Content\TechExplorationDay\CodeOrgDragonDash.JPG" />
+    <Content Include="Content\TechExplorationDay\CodeOrgFrozen.JPG" />
+    <Content Include="Content\TechExplorationDay\CodeOrgiPhoneGame.JPG" />
+    <Content Include="Content\TechExplorationDay\CodeOrgMineCraft.JPG" />
+    <Content Include="Content\TechExplorationDay\CodeOrgStarWars.JPG" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -242,6 +251,9 @@
     <Content Include="Views\NMCPD16\FormsDocs.cshtml" />
     <Content Include="Views\NMCPD16\Index.cshtml" />
     <Content Include="Views\NMCPD16\Portfolios.cshtml" />
+    <Content Include="Views\GirlTech16Fall\Index.cshtml" />
+    <Content Include="Views\GirlTech16Fall\ChangingTheCurve.cshtml" />
+    <Content Include="Views\TechDay16\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -272,7 +284,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>4746</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:4746/</IISUrl>
+          <IISUrl>http://localhost:4747/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

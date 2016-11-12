@@ -23,6 +23,14 @@ textarea {
     max-width: 280px;
 }
 
-.margin10{
+
+.buttonLink {
     margin: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.imageLink {
+    margin: 10px;
+    width: 200px;
 }
